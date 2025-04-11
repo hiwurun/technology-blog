@@ -28,7 +28,7 @@ interface TranslationOptions {
 
 export async function useTranslation(
   lng: string,
-  ns: string | string[],
+  ns?: string | string[],
   options: TranslationOptions = {}
 ) {
   const i18nextInstance = await initI18next(lng, ns)

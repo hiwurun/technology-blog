@@ -1,5 +1,7 @@
 {
   "new": "新建",
   "initText": "点击左侧笔记查阅内容 🥺",
-  "search": "搜索"
+  "search": "搜索",
+  "latest": "最新",
+  "description": "一个关于技术趋势和软件开发最新趋势的博客。"
 }

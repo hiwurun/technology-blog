@@ -1,5 +1,7 @@
 {
   "new": "new",
   "initText": "Click a note on the left to view something! 🥺",
-  "search": "search"
+  "search": "search",
+  "latest": "Latest",
+  "description": "A blog about the latest trends in technology and software development."
 }
