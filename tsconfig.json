@@ -24,7 +24,8 @@
       "contentlayer/generated": ["./.contentlayer/generated"],
       "pliny/*": ["node_modules/pliny/*"],
       "@/*": ["/*"],
-      "app/*": ["app/*"]
+      "app/*": ["app/*"],
+      "shadcn/*": ["components/components/ui/*"]
     },
     "plugins": [
       {
