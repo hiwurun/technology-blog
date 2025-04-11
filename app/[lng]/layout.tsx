@@ -58,15 +58,17 @@ export const metadata: Metadata = {
   },
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode
+  params: Promise<{ lng: string }>
+}) {
   const basePath = process.env.BASE_PATH || ''
-
+  const { lng } = await params
   return (
-    <html
-      lang={siteMetadata.language}
-      className={`${space_grotesk.variable} scroll-smooth`}
-      suppressHydrationWarning
-    >
+    <html lang={lng} className={`${space_grotesk.variable} scroll-smooth`} suppressHydrationWarning>
       <link
         rel="apple-touch-icon"
         sizes="76x76"
